@@ -3,6 +3,11 @@ Financier 執行檔下載（Windows exe、Android APK）；原始碼不公開
 
 ## 更新紀錄
 
+### v20261102.0255
+
+- 新增：Windows 版可內建 Google OAuth 用戶端（把用戶端 ID 與密鑰放進 `google-oauth.txt` 後重新建置），之後使用者只要按「登入 Google」並選自己的信箱帳號即可同步；沒有內建時仍可在「OAuth 用戶端設定」手動填入。
+- 調整：GitHub Models 回傳非 JSON 時，說明改為建議改用 OpenAI、Gemini 或 Ollama。
+
 ### v20261102.0245
 
 - 新增：新的 App 圖示（上升的 K 線與趨勢箭頭），Android 與 Windows 版都換了。
